@@ -1,0 +1,57 @@
+# Node modules
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Vite cache
+.vite/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE and Editor specific files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Ignore frontend specific files
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+frontend/build/
+frontend/dist/
+frontend/node_modules/
+frontend/logs/
+frontend/coverage/
+frontend/.vite/
+
+# Ignore backend specific files
+backend/.env
+backend/.env.local
+backend/.env.*.local
+backend/node_modules/
+backend/logs/
+backend/coverage/
